@@ -1,7 +1,7 @@
-var index = function(req, res) {
+var luxuryContact = function(req, res) {
   res.render('index', { title: 'Contact CEO' });
 };
 
 module.exports = {
-    about
+    luxuryContact
 };
