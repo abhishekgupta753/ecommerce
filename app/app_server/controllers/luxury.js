@@ -12,13 +12,11 @@ const luxuryReserve = function(req, res) {
   res.render('luxury-reserve', { title: 'Reserve a Booking' });
 };
 
-const luxuryContact = function(req, res) {
-  res.render('luxury-contact', { title: 'Talk to CEO' });
-};
+
 
 module.exports = {
     luxuryWelcome,
     luxuryDetails,
     luxuryReserve,
-	luxuryContact
+	
 };

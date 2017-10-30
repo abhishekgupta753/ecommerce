@@ -9,12 +9,12 @@ const othersController = require('../controllers/others');
 /* GET home page. */
 router.get('/', luxuryController.luxuryWelcome);
 /* GET the product details page */
-router.get('/products', luxuryController.luxuryDetails);
+router.get('/luxury/luxury-details', luxuryController.luxuryDetails);
 /* GET the appointment reservation page */
-router.get('/reserve', luxuryController.luxuryReserve);
+router.get('/luxury/luxury-reserve', luxuryController.luxuryReserve);
 
 /* -- Other Pages -- */
-router.get('/contact', luxuryController.luxuryContact);
+router.get('/luxury-contact', othersController.luxuryContact);
 /* GET about page */
 /*router.get('/about', othersController.about);*/
 
