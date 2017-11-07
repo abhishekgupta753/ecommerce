@@ -3,4 +3,7 @@
 h1 {
     font-family: 'Dosis', cursive;
 }
-
+body {
+   padding-bottom: 50px;
+   
+}

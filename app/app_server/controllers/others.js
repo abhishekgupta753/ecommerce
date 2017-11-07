@@ -1,5 +1,5 @@
 var luxuryContact = function(req, res) {
-  res.render('index', { title: 'Contact CEO' });
+  res.render('luxury-contact', { title: 'Contact CEO' });
 };
 
 module.exports = {
